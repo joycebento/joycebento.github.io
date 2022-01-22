@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width:1000px) {
+@media (min-width:901px) {
 header {
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -240,7 +240,7 @@ footer a {
     
 }
 
-@media (min-width: 300px){
+@media (max-width: 900px){
     body{
         min-width: 100%;
     }
