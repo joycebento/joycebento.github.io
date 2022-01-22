@@ -13,7 +13,7 @@
 
 @media (min-width:900px) {
 header {
-    background-image: url(images/banner.jpg);
+    background-image: url("images/banner.jpg");
     background-size: cover;
     background-attachment: fixed;
     height:400px;
@@ -246,7 +246,7 @@ footer a {
     }
 
     header {
-        background-image: url(images/banner.jpg);
+        background-image: url("images/banner.jpg");
         background-size: cover;
         background-attachment: fixed;
         height:350px;
