@@ -11,9 +11,9 @@
     box-sizing: border-box;
 }
 
-@media (min-width:901px) {
+@media (min-width:900px) {
 header {
-    background-image: url(images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     background-attachment: fixed;
     height:400px;
@@ -240,7 +240,7 @@ footer a {
     
 }
 
-@media (max-width: 900px){
+@media (min-width: 300px){
     body{
         min-width: 100%;
     }
@@ -272,7 +272,6 @@ header ul {
     position:absolute;
     top: 50px;
     right: 0px;
-    /* background-color: crimson; */
 }
 
 header h3 {
@@ -489,4 +488,7 @@ header p {
         text-decoration:none;
         color: var(--blue);
     }
+    
+    
+    
 }
