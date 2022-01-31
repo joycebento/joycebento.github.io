@@ -1,16 +1,24 @@
 html {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url('images/background.jpeg');
 }
 body{
     color:white;
+     background: url('images/background.jpeg');
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    margin:0;
 }
 
 .lista-exercicios {
     font-size: 25px;
     list-style:none;
+    text-decoration:none;
 }
-
+ a.lista-exercicios:link, a.lista-exercicios:visited {
+	text-decoration: none;
+     color:white;
+	}
 .titulo {
     padding: 30px;
 }
