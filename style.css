@@ -1,13 +1,17 @@
 html {
-    font-family: 'Noto Sans Display', sans-serif;
-    background:#87CEFA;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('/images/background.jpeg');
+}
+body{
+    color:white;
 }
 
 .lista-exercicios {
     font-size: 25px;
+    list-style:none;
 }
 
 .titulo {
-    padding: 40px;
+    padding: 30px;
 }
 
