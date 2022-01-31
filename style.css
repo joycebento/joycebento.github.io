@@ -19,6 +19,11 @@ body{
 	text-decoration: none;
      color:white;
 	}
+
+a.lista-exercicios:hover {
+	text-decoration:underline;
+}
+
 .titulo {
     padding: 30px;
 }
