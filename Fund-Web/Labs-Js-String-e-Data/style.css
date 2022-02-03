@@ -1,0 +1,29 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    color:white;
+     background: url('images/background_auto_x2.jpg');
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+
+.lista-exercicios {
+    font-size: 25px;
+    list-style:none;
+    text-decoration:none;
+}
+ a.lista-exercicios:link, a.lista-exercicios:visited {
+	text-decoration: none;
+     color:white;
+	}
+
+a.lista-exercicios:hover {
+	text-decoration:underline;
+}
+
+.titulo {
+    padding: 30px;
+}
